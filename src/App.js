@@ -2,8 +2,8 @@ import "./App.css";
 
 import { Route, Routes } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
-import Signin from "./pages/signin-signup/Signin";
-import Signup from "./pages/signin-signup/Signup";
+import Signin from "./Components/pages/signin-signup/Signin.js";
+import Signup from "./Components/pages/signin-signup/Signup.js";
 
 function App() {
   return (
